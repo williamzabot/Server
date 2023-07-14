@@ -1,8 +1,8 @@
 PING www.google.com (142.251.134.100): 56 data bytes
-64 bytes from 142.251.134.100: icmp_seq=0 ttl=52 time=51.680 ms
-64 bytes from 142.251.134.100: icmp_seq=1 ttl=52 time=47.443 ms
-64 bytes from 142.251.134.100: icmp_seq=2 ttl=52 time=49.139 ms
+64 bytes from 142.251.134.100: icmp_seq=0 ttl=52 time=50.336 ms
+64 bytes from 142.251.134.100: icmp_seq=1 ttl=52 time=49.427 ms
+64 bytes from 142.251.134.100: icmp_seq=2 ttl=52 time=50.700 ms
 
 --- www.google.com ping statistics ---
 3 packets transmitted, 3 packets received, 0.0% packet loss
-round-trip min/avg/max/stddev = 47.443/49.421/51.680/1.741 ms
+round-trip min/avg/max/stddev = 49.427/50.154/50.700/0.535 ms

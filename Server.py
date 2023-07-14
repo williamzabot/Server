@@ -6,7 +6,7 @@ file = "ls.txt"
 users = []
 
 myHost = 'localhost'
-myPort = 1024
+myPort = 50001
 socketServer = socket(AF_INET, SOCK_STREAM)
 socketServer.bind((myHost, myPort))
 socketServer.listen(1)
@@ -49,7 +49,7 @@ def menu():
                         send("Logado com sucesso! Digite uma url ")
                         url = receive()
                         ping = str(doPing(url))
-                        #send(ping)
+                        send(ping)
                         print(ping)
             if not userExist:
                 print("Usuário inválido")
@@ -61,7 +61,7 @@ def menu():
             lines = arq.readlines()
             for line in lines:
                 directories += line
-            #send(directories)
+            send(directories)
             print(directories)
         else:
             print("escolha inválida")
